@@ -2,9 +2,11 @@
 import { motion } from "framer-motion";
 
 const facts = [
-  { icon: "💻", text: "Full-stack developer" },
-  { icon: "🎮", text: "Gamer" },
-  { icon: "☕", text: "Coffee lover" },
+    { icon: "💻", text: "Full-stack developer" },
+    { icon: "🎮", text: "Gamer" },
+    { icon: "☕", text: "Coffee lover" },
+    { icon: "📚", text: "Comic reader" },
+    { icon: "😂", text: "Memer" },
 ];
 
 const container = {
