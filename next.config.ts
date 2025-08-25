@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
+// API routes (like /api/contact) require a server runtime,
+// so we remove static export to avoid build errors.
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    unoptimized: true,
+  },
 };
+
+module.exports = nextConfig;
 
 export default nextConfig;
